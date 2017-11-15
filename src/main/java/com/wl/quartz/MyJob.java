@@ -1,4 +1,4 @@
-package com.baizhi.quartz;
+package com.wl.quartz;
 
 import org.quartz.Job;
 import org.quartz.JobExecutionContext;

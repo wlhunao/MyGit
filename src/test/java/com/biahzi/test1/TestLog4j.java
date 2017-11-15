@@ -1,7 +1,7 @@
 package com.biahzi.test1;
 
-import com.baizhi.entity.User;
-import com.baizhi.service.UserService;
+import com.wl.entity.User;
+import com.wl.service.UserService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

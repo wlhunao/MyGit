@@ -1,7 +1,7 @@
-package com.baizhi.quartz;
+package com.wl.quartz;
 
-import com.baizhi.entity.User;
-import com.baizhi.service.UserService;
+import com.wl.entity.User;
+import com.wl.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

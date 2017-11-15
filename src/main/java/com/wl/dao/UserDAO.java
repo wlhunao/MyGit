@@ -1,6 +1,6 @@
-package com.baizhi.dao;
+package com.wl.dao;
 
-import com.baizhi.entity.User;
+import com.wl.entity.User;
 
 import java.util.List;
 

@@ -1,6 +1,6 @@
-package com.baizhi.service;
+package com.wl.service;
 
-import com.baizhi.entity.User;
+import com.wl.entity.User;
 
 import java.util.List;
 

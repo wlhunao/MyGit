@@ -1,4 +1,4 @@
-package com.baizhi.entity;
+package com.wl.entity;
 
 
 import java.util.Date;

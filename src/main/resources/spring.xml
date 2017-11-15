@@ -5,7 +5,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">
 
     <!-- 包扫描 -->
-    <context:component-scan base-package="com.baizhi">
+    <context:component-scan base-package="com.wl">
         <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
     </context:component-scan>
     <!-- 引入配置文件 -->
@@ -21,11 +21,11 @@
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
         <property name="dataSource" ref="dataSource"/>
         <property name="mapperLocations" value="classpath:com/baizhi/mapper/*.xml"/>
-        <property name="typeAliasesPackage" value="com.baizhi.entity"/>
+        <property name="typeAliasesPackage" value="com.wl.entity"/>
     </bean>
     <!-- 创建dao -->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="com.baizhi.dao"/>
+        <property name="basePackage" value="com.wl.dao"/>
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
     </bean>
     <!-- 配置事物管理器 -->

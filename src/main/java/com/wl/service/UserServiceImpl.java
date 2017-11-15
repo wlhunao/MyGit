@@ -1,7 +1,7 @@
-package com.baizhi.service;
+package com.wl.service;
 
-import com.baizhi.dao.UserDAO;
-import com.baizhi.entity.User;
+import com.wl.dao.UserDAO;
+import com.wl.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
