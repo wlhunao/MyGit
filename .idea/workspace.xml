@@ -3,19 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e63ff8d0-f4be-404b-a85e-aba308249acb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../testGit/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../testGit/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../testGit/src/main/resources/log4j.properties" afterPath="$PROJECT_DIR$/../testGit/src/main/resources/log4j.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../testGit/src/main/resources/spring.xml" afterPath="$PROJECT_DIR$/../testGit/src/main/resources/spring.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../testGit/src/main/resources/spring_mvc.xml" afterPath="$PROJECT_DIR$/../testGit/src/main/resources/spring_mvc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../testGit/src/test/java/com/biahzi/test1/TestLog4j.java" afterPath="$PROJECT_DIR$/../testGit/src/test/java/com/biahzi/test1/TestLog4j.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../testGit/src/main/java/com/baizhi/dao/UserDAO.java" afterPath="$PROJECT_DIR$/../testGit/src/main/java/com/wl/dao/UserDAO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../testGit/src/main/java/com/baizhi/entity/User.java" afterPath="$PROJECT_DIR$/../testGit/src/main/java/com/wl/entity/User.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../testGit/src/main/java/com/baizhi/quartz/MyJob.java" afterPath="$PROJECT_DIR$/../testGit/src/main/java/com/wl/quartz/MyJob.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../testGit/src/main/java/com/baizhi/quartz/MyTask.java" afterPath="$PROJECT_DIR$/../testGit/src/main/java/com/wl/quartz/MyTask.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../testGit/src/main/java/com/baizhi/quartz/TestQuartz.java" afterPath="$PROJECT_DIR$/../testGit/src/main/java/com/wl/quartz/TestQuartz.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../testGit/src/main/java/com/baizhi/quartz/TestTimer.java" afterPath="$PROJECT_DIR$/../testGit/src/main/java/com/wl/quartz/TestTimer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../testGit/src/main/java/com/baizhi/service/UserService.java" afterPath="$PROJECT_DIR$/../testGit/src/main/java/com/wl/service/UserService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../testGit/src/main/java/com/baizhi/service/UserServiceImpl.java" afterPath="$PROJECT_DIR$/../testGit/src/main/java/com/wl/service/UserServiceImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../testGit/src/main/resources/com/baizhi/mapper/usremapper.xml" afterPath="$PROJECT_DIR$/../testGit/src/main/resources/com/wl/mapper/usremapper.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../testGit/src/test/java/com/biahzi/test1/TestLog4j.java" afterPath="$PROJECT_DIR$/../testGit/src/test/java/com/wl/test1/TestLog4j.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../testGit/src/test/java/com/biahzi/test1/TestQuartz.java" afterPath="$PROJECT_DIR$/../testGit/src/test/java/com/wl/test1/TestQuartz.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../testGit/out/" />
     <ignored path="$PROJECT_DIR$/../testGit/target/" />
@@ -173,10 +162,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -807,7 +792,7 @@
       <option name="presentableId" value="Default" />
       <updated>1510664620288</updated>
       <workItem from="1510664622941" duration="3607000" />
-      <workItem from="1510706201537" duration="22169000" />
+      <workItem from="1510706201537" duration="22302000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1510666519092</created>
@@ -823,7 +808,14 @@
       <option name="project" value="LOCAL" />
       <updated>1510747689031</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Test Quartz_spring">
+      <created>1510747860372</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1510747860372</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -844,7 +836,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25776000" />
+    <option name="totallyTimeSpent" value="25909000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -874,7 +866,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25340393" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25340393" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1073,7 +1065,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../testGit/src/test/java/com/biahzi/test1/TestLog4j.java">
+    <entry file="file://$PROJECT_DIR$/../testGit/src/test/java/com/wl/test1/TestLog4j.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
           <caret line="24" column="24" lean-forward="false" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
@@ -1143,7 +1135,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../testGit/src/test/java/com/biahzi/test1/TestQuartz.java">
+    <entry file="file://$PROJECT_DIR$/../testGit/src/test/java/com/wl/test1/TestQuartz.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="412">
           <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />

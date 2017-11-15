@@ -1,4 +1,4 @@
-package com.biahzi.test1;
+package com.wl.test1;
 
 import com.wl.entity.User;
 import com.wl.service.UserService;

@@ -1,4 +1,4 @@
-package com.biahzi.test1;
+package com.wl.test1;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
